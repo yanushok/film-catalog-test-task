@@ -1,0 +1,26 @@
+.notFound {
+  text-align: center;
+  flex: 1;
+}
+
+.loader {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.films {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 2rem;
+}
+
+.film {
+  display: flex;
+  flex-direction: column;
+}
+
+.info p {
+  margin: 0;
+}

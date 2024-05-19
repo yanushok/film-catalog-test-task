@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.active {
+  font-weight: bold;
+}
